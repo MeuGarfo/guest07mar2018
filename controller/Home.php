@@ -18,12 +18,12 @@ class Home
                 'View'=>$View,
                 'messages'=>$messages
             ];
-            $View->view(VIEW_DIR.'/home/read', $data);
+            $View->view('home/read', $data);
         }
         $data=[
             'View'=>$View,
             'messages'=>$messages
         ];
-        $View->view(VIEW_DIR.'/home/read', $data);
+        $View->view('home/read', $data);
     }
 }
